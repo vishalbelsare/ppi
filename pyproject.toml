@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "policy-priority-inference"
+version = "3.0.6"
+description = "The model of the Policy Priority Inference impact-evaluation toolkit and its calibration algorithm."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+dependencies = [
+    "numpy",
+]
+
+[tool.setuptools]
+py-modules = ["policy_priority_inference"]
+package-dir = {"" = "source_code"}
